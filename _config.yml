@@ -1,0 +1,44 @@
+url: http://tobias-koehn.de
+baseurl: ""
+
+# Site settings
+title: WeddingMusic OWL
+email: info@weddingmusic-owl.de
+description: "WeddingMusic OWL - Die musikalische Unterstützung für Ihre Trauung "
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: DE534B
+  secondary: 990000  
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Tobias Koehn
+  pic: 2
+  position: Pianist, Sänger
+  social:
+    - title: twitter
+      url: http://twitter.com/tokoehn
+    - title: facebook
+      url: https://www.facebook.com/ToKoehn
+    - title: envelope
+      url: mailto:kontakt@tobias-koehn.de
+    - title: phone
+      url: tel:+4915732520000
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/tokoehn
+  - title: facebook
+    url: https://www.facebook.com/ToKoehn
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Hüfferweg 27
+  - line: 33100 Paderborn
+
+# Build settings
+markdown: kramdown
