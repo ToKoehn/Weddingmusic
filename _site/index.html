@@ -199,7 +199,55 @@ Wir erstellen unser Angebot für jeden Kunden so, dass es für ihn passt. Dazu g
         </div>
     </section>          --> 
     <!-- Services Section -->
-    <section id="kuenstler">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#more").click(function(){
+    $("#morefenster").slideToggle("slow");
+  });
+});
+</script>
+<style type="text/css">
+#morefenster {
+width:800px;
+background: white;
+position:absolute;
+top:200px;
+left:50%;
+margin-left:-400px;
+display:none;
+}
+#morefenster p {
+color:white;
+padding:15px;
+text-align:justify;
+}
+#more {
+width:70px;
+height:20px;
+background:#daa520;
+color:white;
+position:absolute;
+top:182px;
+left:50%;
+margin-left:-200px;
+text-align:center;
+font-size:12px;
+font-weight:300;
+cursor:pointer;
+}
+</style>
+
+#img-big {
+    width: 300px;
+    height: 700px;
+    border-radius: 50%;
+}
+
+
+
+
+<section id="kuenstler">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -292,11 +340,25 @@ Wir erstellen unser Angebot für jeden Kunden so, dass es für ihn passt. Dazu g
                 <div class="col-md-6">
                     <div class="text-center">
                         <img src="img/musiker/hstieren.png" alt="hannah stieren" class="img-list">
+                     
+                        
+                        
                         
                     </div>
                     
-                    <h4> Hannah Stieren</h4>
-                    <p class="text-muted"> ...sammelte bereits in jünsten Jahren Erfahrungen im örtlichen Musikverin und später im Bereich der Tanzmusik. Sie unterrichtet Querflöte und studiert an der Universität Paderborn  </p>
+                    <h4>Hannah Stieren</h4>   <div id="more">Details</div>
+                    <p class="text-muted"> ...sammelte bereits in jünsten Jahren Erfahrungen im örtlichen Musikverin und später im Bereich der Tanzmusik. Sie unterrichtet Querflöte und studiert an der Universität Paderborn
+                    </p>
+                
+                <div id="morefenster"> <!-- Foto hstieren2 ist nur Bspl Foto. Leider kann ich keine neue Fotoform in style.css definieren, um ein Foto von ca 300x600 px zu definieren. das wäre hier nötig, damit ein großes Foto erscheint, wenn mana aufklappt. --> 
+                    
+                    <img src="img/musiker/hstieren2.jpg" alt="hannah stieren" class="img-round" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>text asd asd ijjfasdfjsakdfjsahdfhasdjfhlksjdhkahsdfkjhsakdfhlkasdhf  sakdfjh jdfh ueh uhfjsdhfu efh suehf jsdf hfu shdj ksuf uehfksdfkadsf ösjfhoewh kshf <br> </p>
+                    
+                        
+                    
+                    
+                    
+                 </div>
              
                 </div>
             </div>
