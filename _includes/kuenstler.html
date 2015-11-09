@@ -1,53 +1,30 @@
-<!-- Services Section -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-$("#more").click(function(){
-    $("#morefenster").slideToggle("slow");
-  });
-});
-</script>
-<style type="text/css">
-#morefenster {
-width:800px;
-background: white;
-position:absolute;
-top:200px;
-left:50%;
-margin-left:-400px;
-display:none;
-}
-#morefenster p {
-color:white;
-padding:15px;
-text-align:justify;
-}
-#more {
-width:70px;
-height:20px;
-background:#daa520;
-color:white;
-position:absolute;
-top:182px;
-left:50%;
-margin-left:-200px;
-text-align:center;
-font-size:12px;
-font-weight:300;
-cursor:pointer;
-}
-</style>
-
-#img-big {
-    width: 300px;
-    height: 700px;
-    border-radius: 50%;
-}
-
-
 
 
 <section id="kuenstler">
+<head>
+   <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+    </head>
+
+    
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -81,7 +58,7 @@ cursor:pointer;
                         <a href="koehn" target="_blank"><img src="img/musiker/tokoe2.png" alt="Tobias Koehn" class="img-list">
                             <h4 class="service-heading">Tobias Koehn</h4> </a>
                     </div>
-                    <p class="text-muted">... ist unsere Allzweckwaffe im Bereich Gesang und Klavier. Von Mozart bis Michael Bublé ist alles dabei. Im Laufe seiner Gesangsausbildung nahm und nimmt er Untericht bei Gesangsdozenten sowohl aus dem klassischen Bereich, genauso wie im Bereich Pop, Jazz und Musical.  <br> 
+                    <p class="text-muted">... ist unsere Allzweckwaffe im Bereich Gesang und Klavier. Von Mozart bis Michael Bublé ist alles dabei. Im Laufe seiner Gesangsausbildung nahm und nimmt er Unterricht bei namhaften Gesangsdozenten, sowohl aus dem klassischen Bereich, als auch im Bereich Pop, Jazz und Musical.  <br> 
                         
                         <!---Tobias Köhn nahm bereits Unterricht bei namhaften Dozenten wie Daniel Claus Schäfer (HMTM Hannover, HFM Detmold), Lars Oliver Rühl (Musikhochschule Mannheim; Jazz- und Popgesang). --> 
                     
@@ -116,7 +93,7 @@ cursor:pointer;
                         <h4 class="service-heading">Adrian Doerk</h4>
                     </div>
                 
-                    <p class="text-muted">unser Allroundtalent im Team. Beginnend mit dem Saxophon erarbeitete er sich, während des Studiums der Schulmusik mit dem Hauptfach Saxophon, die Instrumente Klavier und Gitarre, mit denen er unter anderem im Bandkontext für einen abgerundeten Sound sorgt.
+                    <p class="text-muted">... ist unser Allroundtalent im Team. Beginnend mit dem Saxophon erarbeitete er sich, während des Studiums der Schulmusik mit dem Hauptfach Saxophon, die Instrumente Klavier und Gitarre, mit denen er unter anderem im Bandkontext für einen abgerundeten Sound sorgt.
                         </p>
                 </div>
                         </div>
@@ -133,31 +110,26 @@ cursor:pointer;
             
                                                 <!--- Flöte die alte Tröte--> 
                 
-                <div>             <div> <h3> Querflöte </h3> 
-</div>
+                         <div> <h3> Querflöte </h3> 
+
                     
-                     </div>
+                     
                 <div class="col-md-6">
                     <div class="text-center">
-                        <img src="img/musiker/hstieren.png" alt="hannah stieren" class="img-list">
-                     
+                       <img src="img/musiker/hstieren.png" alt="hannah stieren" class="img-list"> 
                         
                         
-                        
-                    </div>
+                  
                     
-                    <h4>Hannah Stieren</h4>   <div id="more">Details</div>
-                    <p class="text-muted"> ...sammelte bereits in jünsten Jahren Erfahrungen im örtlichen Musikverin und später im Bereich der Tanzmusik. Sie unterrichtet Querflöte und studiert an der Universität Paderborn
+                    </div>
+                    <h4>Hannah Stieren</h4>   <!--<div id="more">Details</div> -->
+                    <p class="text-muted"> ...sammelte bereits in jüngsten Jahren Erfahrungen im örtlichen Musikverein und später im Bereich der Tanzmusik. Sie unterrichtet Querflöte und studiert an der Universität Paderborn
                     </p>
                 
-                <div id="morefenster"> <!-- Foto hstieren2 ist nur Bspl Foto. Leider kann ich keine neue Fotoform in style.css definieren, um ein Foto von ca 300x600 px zu definieren. das wäre hier nötig, damit ein großes Foto erscheint, wenn mana aufklappt. --> 
+            
+             
                     
-                    <img src="img/musiker/hstieren2.jpg" alt="hannah stieren" class="img-round" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>text asd asd ijjfasdfjsakdfjsahdfhasdjfhlksjdhkahsdfkjhsakdfhlkasdhf  sakdfjh jdfh ueh uhfjsdhfu efh suehf jsdf hfu shdj ksuf uehfksdfkadsf ösjfhoewh kshf <br> </p>
-                    
-                        
-                    
-                    
-                    
+                
                  </div>
              
                 </div>
