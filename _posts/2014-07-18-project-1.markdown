@@ -1,15 +1,13 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Melanie Manske
+subtitle: Gesang
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
+img: mel-man.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: <p class="text-muted">... begann bereits im Jahr 2001 mit Gesangsunterricht bei der Hannoveraner Gesangsdozentin ... und spielte unter anderem 2015 in der Oper "Der Kaffekrieg in Paderborn" mit. <br> <br> <br> 
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233594767%3Fsecret_token%3Ds-r9W6n&amp;color=4e326e&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 ---

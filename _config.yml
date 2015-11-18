@@ -8,9 +8,9 @@ description: "WeddingMusic OWL - Die musikalische Unterstützung für Ihre Trauu
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: daa520
-  secondary: daa520  
-  secondary-dark: 333
+  primary: 4e326e 
+  secondary: 4e326e
+  secondary-dark: 191919
 
 # Team names, titles and social links
 people:
@@ -23,7 +23,7 @@ people:
     - title: facebook
       url: https://www.facebook.com/ToKoehn
     - title: envelope
-      url: mailto:kontakt@tobias-koehn.de
+      url: mailto:info@weddingmusic-owl.de
     - title: phone
       url: tel:+4915732520000
 
