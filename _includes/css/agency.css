@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #00ffff;
+    background-color: darkgrey;
 }
 
 .navbar-default .navbar-brand {
@@ -872,6 +872,15 @@ body {
     border-radius: 50%;
 }
 
+.img-round-border {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#4e326e;
+}
+    
 .img-list {
     list-style: none;
     padding: 0;
@@ -884,3 +893,5 @@ body {
     margin-right: 2px;
     margin-bottom: 4px;
 } 
+
+
