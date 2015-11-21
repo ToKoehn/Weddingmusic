@@ -894,4 +894,8 @@ body {
     margin-bottom: 4px;
 } 
 
-
+.table {
+border-style: solid;
+border-color:blueviolet;
+    
+}
