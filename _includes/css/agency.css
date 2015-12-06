@@ -904,3 +904,20 @@ border-color:blueviolet;
 
 .dropdown{position:relative; margin-top: 20px;}
 .dropdown-toggle:focus{outline:0}
+
+.infobox {
+width:70%;
+height: 100%;
+border-style:solid;
+border-radius:20px;
+color: #{{ site.color.primary }}
+background: #{{ site.color.secondary }};
+frame:1px;
+padding: 5px;
+position:relative;
+top:0;
+left:-80;
+margin-left:80; 
+z-index: inherit;
+text
+}
